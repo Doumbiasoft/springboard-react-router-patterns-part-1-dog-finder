@@ -1,0 +1,40 @@
+.Nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: -2px 0px 21px -6px rgba(0,0,0,0.58); 
+    box-shadow: -2px 0px 21px -6px rgba(0,0,0,0.58);
+
+}
+.Nav a {
+    background-color: whitesmoke;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+.Nav a.active {
+    background-color: brown;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+.Nav a:hover {
+    background-color: burlywood;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+
+}

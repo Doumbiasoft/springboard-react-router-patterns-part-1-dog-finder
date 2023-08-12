@@ -1,0 +1,32 @@
+
+.DogList {
+    display: flex;
+    margin: auto;
+    flex-direction:column;
+    align-items:center;
+
+}
+.DogList-card{
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 0px 21px -6px rgba(0,0,0,0.58); 
+    box-shadow: -2px 0px 21px -6px rgba(0,0,0,0.58);
+    margin: 10px;
+    padding: 10px;
+    width:calc(50vh) ;
+}
+.DogList-card a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+.DogList-card-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.DogList-profile-img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
